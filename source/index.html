@@ -1,41 +1,266 @@
 <!DOCTYPE html>
 <html class="page" lang="ru">
-  <head>
+  <link>
+    <title>Виза в США</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Виза в США</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
   </head>
   <body class="page__body">
 
     <header class="page-header">
-      <nav class="navigation">
-        <ul class="navigation__list">
-          <li class="navigation__item">
-            <a class="navigation__link" href="">Главная</a>
+      <div class="page-header__contacts contacts">
+        <ul class="contacts__list">
+          <li class="contacts__item">
+            <a class="contacts__link" href="mailto:">info@vizasbor.ru</a>
           </li>
-          <li class="navigation__item">
-            <a class="navigation__link" href="">Список документов</a>
-          </li>
-          <li class="navigation__item">
-            <a class="navigation__link" href="">Стоимость</a>
-          </li>
-          <li class="navigation__item">
-            <a class="navigation__link" href="">Список стран</a>
-          </li>
-          <li class="navigation__item">
-            <a class="navigation__link" href="">Отзывы</a>
-          </li>
-          <li class="navigation__item">
-            <a class="navigation__link" href="">Контакты</a>
+          <li class="contacts__item">
+            <a class="contacts__link" href="tel:+">+8(800) 355 55 55</a>
           </li>
         </ul>
+        <p class="contacts__text contacts__text--top" href=""><span>Работаем</span> 24/7</p>
+        <div class="contacts__container">
+          <p class="contacts__text contacts__text--bottom" href=""><span class="visually-hidden">Работаем</span> 24/7</p>
+          <button class="contacts__button contacts__button--hover button button--hover" type="button">Обратный звонок</button>
+          <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </div>
+      <nav class="main-nav main-nav--closed main-nav--nojs">
+        <div class="main-nav__wrapper">
+          <ul class="main-nav__list site-list">
+            <li class="site-list__item site-list__item--active">
+              <a href="#">Главная</a>
+            </li>
+            <li class="site-list__item">
+              <a href="#">Список документов</a>
+            </li>
+            <li class="site-list__item">
+              <a href="#">Стоимость</a>
+            </li>
+            <li class="site-list__item">
+              <a href="#">Список стран</a>
+            </li>
+            <li class="site-list__item">
+              <a href="#">Отзывы</a>
+            </li>
+            <li class="site-list__item">
+              <a href="#">Контакты</a>
+            </li>
+          </ul>
+        </div>
       </nav>
     </header>
 
-    <main class="page-main"></main>
+    <main class="page-main">
+      <h1 class="page-main__title">Виза в США</h1>
+      <section class="visa-types">
+        <div class="visa-types__wrapper">
+          <header class="visa-types__header">
+            <h2 class="visa-types">Типы визы:</h2>
+          </header>
+          <ul class="visa-types__list">
+            <li class="visa-types__item">Рабочая</li>
+            <li class="visa-types__item">Учебная</li>
+            <li class="visa-types__item">Туристическая/деловая</li>
+          </ul>
+          <div>
+            <button class="visa-types__button" type="button">Получить визу</button>
+            <button class="visa-types__button visa-types__button--current" type="button">Получить консультацию</button>
+          </div>
+        </div>
+      </section>
 
-    <footer class="page-footer"></footer>
+      <section class="documents">
+        <h2 class="documents__title">Список документов:</h2>
+        <ul class="documents__list">
+          <li class="documents__item">Опросный лист</li>
+          <li class="documents__item">Фото</li>
+        </ul>
+      </section>
+      <div class="services-and-countries">
+        <section class="price">
+          <div class="price__wrapper">
+            <h2 class="price__title">Стоимость услуги:</h2>
+            <p class="price__text">6 000 Р + консульский сбор</p>
+            <button class="button documents__button button--hover" type="button">Получить визу</button>
+          </div>
+        </section>
+        <section class="countries">
+          <div class="countries__wrapper">
+            <h2 class="countries__title">Страны где можно оформить</h2>
+            <ul class="countries__list">
+              <li class="countries__item">Армения</li>
+              <li class="countries__item">Израиль</li>
+              <li class="countries__item">Казахстан</li>
+              <li class="countries__item">Сербия</li>
+              <li class="countries__item">Италия</li>
+              <li class="countries__item">Турция</li>
+              <li class="countries__item">Арабские Эмираты</li>
+              <li class="countries__item">Испания</li>
+              <li class="countries__item">Великобритания</li>
+              <li class="countries__item">Германия</li>
+              <li class="countries__item">Грузия</li>
+              <li class="countries__item">Франция</li>
+              <li class="countries__item">Бахрейн</li>
+              <li class="countries__item">Греция</li>
+              <li class="countries__item">Австрия</li>
+              <li class="countries__item">Кипр</li>
+              <li class="countries__item">Польша</li>
+              <li class="countries__item">Хорватия</li>
+            </ul>
+          </div>
+        </section>
+      </div>
+
+      <section class="visa">
+        <div class="visa__wrapper">
+          <h2 class="visa__title">Схема получения визы:</h2>
+          <ul>
+
+          </ul>
+        </div>
+
+        <ul>
+          <li class="visa__item">
+            <h3 class="visa__subtitle"><span class="visa__subtitle--span">Шаг 1.</span>Подготовка документов</h3>
+            <img src="" alt="Первый шаг">
+            <ul>
+              <li>
+                <ul>
+                  <li>Ксерокопия/скан первой страницы паспорта РФ;</li>
+                  <li> Ксерокопия/скан первой страницы загранпаспорта;</li>
+                  <li>Заполненный опросный лист;</li>
+                  <li> Одна цветная фотография 5х5см. на белом фоне в электронном виде; <span>(смотреть требования к фотографиям)</span></li>
+                  <li>Приглашение от родственников или друзей. (Если Вас приглашают).</li>
+                </ul>
+              </li>
+              <li>
+                <h3 class="visa__subtitle"><span class="visa__subtitle--span">Шаг 2.</span>Оплата консульского сбора и услуг по оформлению визы.</h3>
+                <img src="" alt="Второй шаг">
+                <p>В данный момент консульский сбор составляет $185 с одного заявителя.</p>
+                <p>Оплата возможна только с карт иностранных банков.
+                </p>
+                <p>Если у Вас нет возможности оплатить сбор нажмите - <span>запросить условия оплаты.</span></p>
+              </li>
+              <li>
+                <h3 class="visa__subtitle"><span class="visa__subtitle--span">Шаг 3.</span>Запись на собеседование.</h3>
+                <img src="" alt="Третий шаг">
+                <p>Запишем Вас на ближайшую доступную дату собеседования.</p>
+                <p>Или запишем на выбранный вами диапазон дат с помощью бота.</p>
+              </li>
+              <li>
+                <h3 class="visa__subtitle"><span class="visa__subtitle--span">Шаг 4.</span> Документы для собеседования.</h3>
+                <img src="" alt="Четвёртый шаг">
+                <ol>
+                  <li>Действующий заграничный паспорт;</li>
+                  <li>Фотография 5х5 см установленного образца; <span>(смотреть требования к фотографиям)</span></li>
+                  <li>Анкета DS-160;</li>
+                  <li>Подтверждение записи на собеседование;</li>
+                  <li> Список дополнительных документов, подтверждающих Ваше социальное положение и привязанность к Родине: справка с работы, справка из банка, свидетельство о собственности. Как показывает практика, визовые офицеры отошли от процедуры просмотра документов, они будут беседовать с Вами.</li>
+                </ol>
+              </li>
+            </ul>
+      </section>
+
+      <section class="feedback">
+        <div class="feedback__wrapper">
+          <h2 class="feedback__title title">Остались вопросы?</h2>
+          <div class="feedback__background">
+            <form class="feedback-form form" action="#">
+              <fieldset class="form__section">
+                <label class="form__field" for="name-user">Ваше имя</label>
+                <input class="form__field-input" type="text" name="name-user" placeholder="Ваше имя*" required>
+              </fieldset>
+              <fieldset class="form__section">
+                <label class="form__field" for="phone-user">Ваш телефон</label>
+                <input class="form__field-input" type="tel" name="phone-user" placeholder="Ваш телефон*" required>
+              </fieldset>
+              <fieldset class="form__section">
+                <label class="form__field" for="message">Сообщение</label>
+                <textarea class="form__field-input" name="message" placeholder="Ваше сообщение..."></textarea>
+              </fieldset>
+              <p class="checkbox">
+                <input class="checkbox__input" id="agreement" type="checkbox" name="agreement">
+                <label class="checkbox__label" for="agreement">
+                  <span>Нажимая, я соглашаюсь на обработку персональных данных</span>
+                </label>
+              </p>
+              <button class="button button--hover form__button form__button--primary" type="submit">Получить консультацию</button>
+            </form>
+          </div>
+          <div class="contacts">
+            <h2 class="contacts__title">Контакты:</h2>
+            <a class="contacts__phone" href="tel:+78003555555">+7(800) 355 55 55</a>
+            <a class="contacts__email" href="mailto:info@vizasbor.ru">info@vizasbor.ru</a>
+            <p class="contacts__working-hours">Работаем 24/7</p>
+            <a class="button button--hover contacts__button" href="tel:+78003555555">Позвонить</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="reviews">
+        <div class="reviews__wrapper slider">
+          <h2 class="reviews__title">Отзывы о нас</h2>
+          <a class="reviews__write button button--hover" href="#">Оставить свой</a>
+          <div class="reviews__list slider__list">
+            <blockquote class="reviews__item slider__item">
+              <div class="reviews__author-info">
+                <p class="reviews__text">Хочу поблагодарить за проделанную помощь в получении визы. Это была моя первая подача документов. Спасибо, ведь благодаря вам я побывала там. Рекомендую, мастеры своего дела!</p>
+                <cite class="reviews__author-name">Трэвис Баркер</cite>
+                <time class="reviews__date" datetime="2023.05.03">03.05.23</time>
+              </div>
+            </blockquote>
+            <blockquote class="reviews__item slider__item">
+              <div class="reviews__author-info">
+                <p class="reviews__text">Хочу поблагодарить за проделанную помощь в получении визы. Это была моя первая подача документов. Спасибо, ведь благодаря вам я побывала там. Рекомендую, мастеры своего дела!</p>
+                <cite class="reviews__author-name">Трэвис Баркер</cite>
+                <time class="reviews__date" datetime="2023.05.03">03.05.23</time>
+              </div>
+            </blockquote>
+            <blockquote class="reviews__item slider__item">
+              <div class="reviews__author-info">
+                <p class="reviews__text">Хочу поблагодарить за проделанную помощь в получении визы. Это была моя первая подача документов. Спасибо, ведь благодаря вам я побывала там. Рекомендую, мастеры своего дела!</p>
+                <cite class="reviews__author-name">Трэвис Баркер</cite>
+                <time class="reviews__date" datetime="2023.05.03">03.05.23</time>
+              </div>
+            </blockquote>
+            <button class="reviews__button-prev" type="button">Предыдущий отзыв</button>
+            <button class="reviews__button-next" type="button">Следующий отзыв</button>
+          </div>
+          <p class="reviews__toggles slider__toggles">
+            <button class="slider__toggle slider__toggle--current" type="button">1</button>
+            <button class="slider__toggle slider__toggle" type="button">2</button>
+            <button class="slider__toggle slider__toggle" type="button">3</button>
+          </p>
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="page-footer">
+      <div class="page-footer__wrapper">
+        <h2 class="page-footer__title">Виза в США</h2>
+        <ul class="social social__list">
+          <li class="social__item">
+            <a class="social__link social__link--telegram" href="#"><span class="visually-hidden">Мы в Telegram</span></a>
+          </li>
+          <li class="social__item">
+            <a class="social__link social__link--whatsapp" href="#"><span class="visually-hidden">Мы в Whatsapp</span></a>
+          </li>
+          <li class="social__item">
+            <a class="social__link social__link--email" href="#"><span class="visually-hidden">Наша почта</span></a>
+          </li>
+        </ul>
+        <button class="page-footer__button button button--hover" type="button">Обратный звонок</button>
+      </div>
+    </footer>
 
   </body>
 </html>
