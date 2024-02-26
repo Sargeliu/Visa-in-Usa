@@ -18,7 +18,7 @@
             <a class="contacts__link" href="mailto:">info@vizasbor.ru</a>
           </li>
           <li class="contacts__item">
-            <a class="contacts__link" href="tel:+">+8(800) 355 55 55</a>
+            <a class="contacts__link contacts__link--phone" href="tel:+">+8(800) <span>355 55 55</span></a>
           </li>
         </ul>
         <p class="contacts__text contacts__text--top" href=""><span>Работаем</span> 24/7</p>
@@ -32,7 +32,7 @@
           </div>
         </div>
       </div>
-      <nav class="main-nav main-nav--closed main-nav--nojs">
+      <nav class="visually-hidden main-nav main-nav--closed main-nav--nojs">
         <div class="main-nav__wrapper">
           <ul class="main-nav__list site-list">
             <li class="site-list__item site-list__item--active">
@@ -59,20 +59,19 @@
     </header>
 
     <main class="page-main">
-      <h1 class="page-main__title">Виза в США</h1>
+      <h1 class="visually-hidden">Виза в США</h1>
       <section class="visa-types">
         <div class="visa-types__wrapper">
-          <header class="visa-types__header">
-            <h2 class="visa-types">Типы визы:</h2>
-          </header>
+          <h2 class="visa-types__title">Виза <br> <span>в США</span></h2>
+          <h3 class="visa-types__subtitle">Типы визы:</h3>
           <ul class="visa-types__list">
-            <li class="visa-types__item">Рабочая</li>
-            <li class="visa-types__item">Учебная</li>
-            <li class="visa-types__item">Туристическая/деловая</li>
+            <li class="visa-types__item"><button class="visa-types__item-button" type="button">Рабочая</button></li>
+            <li class="visa-types__item"><button class="visa-types__item-button" type="button">Учебная</button></li>
+            <li class="visa-types__item"><button class="visa-types__item-button" type="button">Туристическая/деловая</button></li>
           </ul>
-          <div>
-            <button class="visa-types__button" type="button">Получить визу</button>
-            <button class="visa-types__button visa-types__button--current" type="button">Получить консультацию</button>
+          <div class="visa-types__buttons">
+            <button class="visa-types__button visa-types__button-visa" type="button">Получить визу</button>
+            <button class="visa-types__button visa-types__button-advice" type="button">Получить консультацию</button>
           </div>
         </div>
       </section>
@@ -89,7 +88,7 @@
           <div class="price__wrapper">
             <h2 class="price__title">Стоимость услуги:</h2>
             <p class="price__text">6 000 Р + консульский сбор</p>
-            <button class="button documents__button button--hover" type="button">Получить визу</button>
+            <button class="button price__button button--hover" type="button">Получить визу</button>
           </div>
         </section>
         <section class="countries">
@@ -122,17 +121,10 @@
       <section class="visa">
         <div class="visa__wrapper">
           <h2 class="visa__title">Схема получения визы:</h2>
-          <ul>
-
-          </ul>
-        </div>
-
-        <ul>
-          <li class="visa__item">
-            <h3 class="visa__subtitle"><span class="visa__subtitle--span">Шаг 1.</span>Подготовка документов</h3>
-            <img src="" alt="Первый шаг">
-            <ul>
-              <li>
+          <ul class="visa__list">
+              <li class="visa__item">
+                <h3 class="visa__subtitle"><span class="visa__subtitle-style">Шаг 1.</span>Подготовка документов</h3>
+                <img class="visa__img" src="" alt="Первый шаг">
                 <ul>
                   <li>Ксерокопия/скан первой страницы паспорта РФ;</li>
                   <li> Ксерокопия/скан первой страницы загранпаспорта;</li>
@@ -141,22 +133,22 @@
                   <li>Приглашение от родственников или друзей. (Если Вас приглашают).</li>
                 </ul>
               </li>
-              <li>
-                <h3 class="visa__subtitle"><span class="visa__subtitle--span">Шаг 2.</span>Оплата консульского сбора и услуг по оформлению визы.</h3>
+              <li class="visa__item">
+                <h3 class="visa__subtitle"><span class="visa__subtitle-style">Шаг 2.</span>Оплата консульского сбора и услуг по оформлению визы.</h3>
                 <img src="" alt="Второй шаг">
                 <p>В данный момент консульский сбор составляет $185 с одного заявителя.</p>
                 <p>Оплата возможна только с карт иностранных банков.
                 </p>
                 <p>Если у Вас нет возможности оплатить сбор нажмите - <span>запросить условия оплаты.</span></p>
               </li>
-              <li>
-                <h3 class="visa__subtitle"><span class="visa__subtitle--span">Шаг 3.</span>Запись на собеседование.</h3>
+              <li class="visa__item">
+                <h3 class="visa__subtitle"><span class="visa__subtitle-style">Шаг 3.</span>Запись на собеседование.</h3>
                 <img src="" alt="Третий шаг">
                 <p>Запишем Вас на ближайшую доступную дату собеседования.</p>
                 <p>Или запишем на выбранный вами диапазон дат с помощью бота.</p>
               </li>
-              <li>
-                <h3 class="visa__subtitle"><span class="visa__subtitle--span">Шаг 4.</span> Документы для собеседования.</h3>
+              <li class="visa__item">
+                <h3 class="visa__subtitle"><span class="visa__subtitle-style">Шаг 4.</span> Документы для собеседования.</h3>
                 <img src="" alt="Четвёртый шаг">
                 <ol>
                   <li>Действующий заграничный паспорт;</li>
@@ -166,7 +158,8 @@
                   <li> Список дополнительных документов, подтверждающих Ваше социальное положение и привязанность к Родине: справка с работы, справка из банка, свидетельство о собственности. Как показывает практика, визовые офицеры отошли от процедуры просмотра документов, они будут беседовать с Вами.</li>
                 </ol>
               </li>
-            </ul>
+          </ul>
+        </div>
       </section>
 
       <section class="feedback">

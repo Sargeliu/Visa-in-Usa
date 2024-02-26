@@ -1,0 +1,75 @@
+.visa-types {
+  background-image: url(../../img/index-mobile.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  &__title {
+    padding-top: 150px;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 60px;
+    padding-bottom: 20px;
+  }
+  &__title span {
+    color: @red;
+  }
+  &__subtitle {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 24px;
+  }
+  &__list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 40px;
+  }
+  &__item button {
+    width: 143px;
+    height: 45px;
+    margin-bottom: 8px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 10px;
+    border: none;
+  }
+  &__item:last-child button {
+    width: 186px;
+  }
+  &__buttons {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 60px;
+  }
+  &__button {
+    width: 148px;
+    height: 52px;
+    position: relative;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    color: @white;
+
+    border: none;
+    &-visa {
+      left: 22px;
+      padding-left: 6px;
+      text-align: left;
+      background-color: @red;
+      border-radius: 50px 0 0 50px;
+    }
+    &-advice {
+      width: 172px;
+      left: -25px;
+      padding: 0;
+      text-align: center;
+      background-color: @gray;
+      border-radius: 50px
+    };
+  }
+}
